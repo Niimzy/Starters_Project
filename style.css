@@ -373,7 +373,7 @@ p{
 
 img {
   width: 100%;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .cards {
