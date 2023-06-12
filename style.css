@@ -108,6 +108,206 @@ p{
     transition: 0.1s;   
 }
 
+/* Homepage*/
+
+.container{
+background-image:url("./back1.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+/* background-color: black; */
+
+}
+
+.title{
+  
+color:aliceblue;
+font-size:60px ;
+margin: 0 0;
+}
+
+.title:hover{
+transform:scale(1.1);
+transition: 1s;
+/* background-color:indigo; */
+
+}
+.text{
+margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:flex-end; */
+  align-items: center;
+  height:65%;
+  /* border: 2px solid green; */
+
+}
+.text p{
+font-size: 20px;
+color: aliceblue;
+margin-top: 20px;
+}
+.text p:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.text h3{
+margin-top: 40px;
+color: crimson;
+font-size: 40px;
+}
+.text h3:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.text h4{
+color:crimson;
+font-size: 60px;
+margin-top: 20px;
+}
+.text h4:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.brands{
+    text-align: center;
+    color:black;
+    font-size:20px ;
+}
+.brand{
+
+padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 100%; */
+  height: 200px;
+    /* border: 2px solid black; */
+}
+.b{
+  border: 2px solid black;
+  width: 25%;
+  height:100%;
+  position:relative ;
+}
+.xbox{
+  width: 100%;
+  height:100%;
+}
+.brand_back{
+  background-color:dimgray;
+margin-bottom: 50px;
+}
+.ps{
+  height: 100%;
+  width: 100%;
+}
+.apple1{
+  height: 100%;
+  width: 100%;
+}
+.apple1:hover{
+/* background-color: orange; */
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0 0 25px rgb(15, 17, 15)
+}
+.ps:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0 0 25px rgb(15, 17, 15)
+}
+.xbox:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0 0 25px rgb(15, 17, 15)
+}
+.special{
+display: flex;
+flex-direction: row;
+justify-content: space-between  ;    
+padding: 0px  40px;   
+height:350px ;
+/* border: 2px solid green; */
+}
+
+.offer{
+  border: 2px solid black;
+  width: 45%;
+  height: 350px; 
+}
+#ps5{
+  background-image:url("./ps5.jpg") ;
+  height: 100%;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+}
+#ps5:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0 0 25px rgb(15, 17, 15)
+}
+.offer h2{
+  margin-left: 200px;
+  width: 250px;
+  /* border: 2px solid red; */
+  font-size: 30px;
+  text-align: center;
+  color:blue ;
+  box-shadow: 0 0 5px blue, 0 0 25px blue
+}
+.offer h2:hover{
+box-shadow: 0 0 5px blue,0 0 25px blue,0 0 50px blue;
+transform: scale(1.05);
+transition: 0.5s;
+
+}
+#sale{
+background-image: url("./sale.jpg");
+height:100 ;
+background-repeat: no-repeat;
+
+}
+#sale h3{
+  /* margin-bottom: 50px; */
+  /* border: 2px solid white; */
+  color: white;
+font-size: 40px;
+text-align: center;
+}
+#sale h4{
+  font-size: 45px;
+  color: red;
+  text-align: center;
+  margin-bottom: 60px;
+  /* border: 2px solid wheat; */
+width: 30%;
+margin-left: 230px;
+margin-bottom: 10px;
+}
+#sale h4:hover{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+#sale:hover{
+transform: scale(1.05);
+transition: 0.5s;
+box-shadow: 0 0 25px rgb(15, 17, 15)
+}
+.main_container{
+  height: 195vh;
+  background-color:dimgray       
+}
+
+/* homepage end*/
+
 .two-block-everything{
     display: flex;
     flex-direction: column;
@@ -511,6 +711,7 @@ i {
   cursor: pointer;
 }
 
+
 /*FOOTER*/
 .footer-products p {
   color: white;
@@ -531,6 +732,8 @@ i {
 .foooter-content {
   display: flex;
 }
+
+
 
 /*ABDULLAH CONTACT PAGE*/
 
