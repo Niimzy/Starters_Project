@@ -133,7 +133,6 @@ p{
     
     .middle-section a:hover{
       background-color: rgb(57, 31, 66);
-      
       color: white;
       transition: 0.15s;
     }
@@ -327,13 +326,15 @@ p{
 .death-stranding{
 
     position: relative;
-    width: 97%;
+    width: 94%;
     margin-top: 8px;
     border-radius: 8px;
-    height: 750px;
+    height: 820px;
     filter: brightness(0.8);
     border: none;
 }
+
+
 .just-for-centre{
     display: flex;
     flex-direction: column;
@@ -921,21 +922,41 @@ p{
 .footer-products .footer-content{
     font-weight: bold;
     color: white;
-    margin: 0px;
-    text-align: center;
-    padding-top: 50px;
     font-size: 19px;
 }
-
+/*
 .footer-products{
-    margin-top: 0px;
+    margin-top: 0px;g
     background-color: rgb(19, 18, 18);
     height: 110px;
-}
+}*/
 .developers{
   color: white;
-  margin-left: 89%;
-  margin-top: -26px;
   font-weight: bold;
   font-size: 18px;
+  margin-right: 15px;
+}
+
+
+
+.footer-products{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 100px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-img{
+  height: 50px;
+  width: 50px;
+}
+
+.social-icons{
+  margin-left: 15px;
+  background: white;
+  padding: 6px;
+  border-radius: 6px;
 }
