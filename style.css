@@ -765,14 +765,17 @@ p{
 /*ABDULLLAH CONTACT PAGE*/
 
   .map {
+    width: 100%;
     font-size: 30px;
     font-family: 'Inter', sans-serif;
+    cursor: grab;
   
   }
-  
   /*
+  
   img {
-    
+   
+    width: 100%;
     cursor: pointer;
   }
   */
