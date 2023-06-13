@@ -189,17 +189,20 @@ p{
     /* background-color: orange; */
       transform: scale(1.05);
       transition: 0.5s;
-      box-shadow: 0 0 25px rgb(15, 17, 15)
+      box-shadow: 0 0 25px rgb(15, 17, 15);
+      cursor: pointer;
     }
     .ps:hover{
       transform: scale(1.05);
       transition: 0.5s;
-      box-shadow: 0 0 25px rgb(15, 17, 15)
+      box-shadow: 0 0 25px rgb(15, 17, 15);
+      cursor: pointer;
     }
     .xbox:hover{
       transform: scale(1.05);
       transition: 0.5s;
-      box-shadow: 0 0 25px rgb(15, 17, 15)
+      box-shadow: 0 0 25px rgb(15, 17, 15);
+      cursor: pointer;
     }
     .special{
     display: flex;
@@ -224,7 +227,8 @@ p{
     #ps5:hover{
       transform: scale(1.05);
       transition: 0.5s;
-      box-shadow: 0 0 25px rgb(15, 17, 15)
+      box-shadow: 0 0 25px rgb(15, 17, 15);
+      cursor: pointer;
     }
     .offer h2{
       margin-left: 200px;
@@ -239,7 +243,7 @@ p{
     box-shadow: 0 0 5px blue,0 0 25px blue,0 0 50px blue;
     transform: scale(1.05);
     transition: 0.5s;
-    
+    cursor: pointer;
     }
     #sale{
     background-image: url("./Images/sale.jpg");
@@ -267,11 +271,13 @@ p{
     #sale h4:hover{
       transform: rotate(360deg);
       transition: 1s;
+      cursor: pointer;
     }
     #sale:hover{
     transform: scale(1.05);
     transition: 0.5s;
-    box-shadow: 0 0 25px rgb(15, 17, 15)
+    box-shadow: 0 0 25px rgb(15, 17, 15);
+    cursor: pointer;
     }
     .main_container{
       height: 195vh;
@@ -322,7 +328,7 @@ p{
 
     position: relative;
     width: 97%;
-    margin-top: 5px;
+    margin-top: 8px;
     border-radius: 8px;
     height: 750px;
     filter: brightness(0.8);
@@ -764,10 +770,12 @@ p{
   
   }
   
+  /*
   img {
-    width: 100%;
+    
     cursor: pointer;
   }
+  */
   
   .cards {
     font-family: 'Inter', sans-serif;
@@ -907,7 +915,7 @@ p{
 
   /*ABDULLAH CONTACT PAGE*/
 
-.footer-products p{
+.footer-products .footer-content{
     font-weight: bold;
     color: white;
     margin: 0px;
@@ -918,7 +926,13 @@ p{
 
 .footer-products{
     margin-top: 0px;
-    background-color: black;
+    background-color: rgb(19, 18, 18);
     height: 110px;
 }
-
+.developers{
+  color: white;
+  margin-left: 89%;
+  margin-top: -26px;
+  font-weight: bold;
+  font-size: 18px;
+}
